@@ -1,0 +1,55 @@
+			<form id="form1" name="form1" action="index.php?exam-app-lesson-ajax-questions">
+                                <div id="question_1" class="paperexamcontent">
+					<div class="media well">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<span class="badge badge-info questionindex">1</span></a>
+							</li>
+							<li class="btn-group pull-right">
+								<button class="btn" type="button" onclick="javascript:favorquestion('1');"><em class="icon-heart" title="收藏"></em></button>
+							</li>
+						</ul>
+						<div class="media-body well text-warning">
+							<a name="question_1"></a>《新青年》创刊后的一年多时间里，发行量长期徘徊在1000册左右；1918年后，发行量猛增至20000册。出现这一局面的直接原因是（）						</div>
+																		<div class="media-body well">
+	                    	<p>A、民主科学思想深入人心</p><p>B、十月革命的影响</p><p>C、文学革命的开展</p><p>D、五四运动的影响</p>	                    </div>
+	                    						<div class="media-body well questionanswerbox" id="answernotice_1">
+	                    			                        		                        		                        <label class="radio inline"><input type="radio" name="question[1]" rel="1" value="A" />A </label>
+		                        		                        		                        <label class="radio inline"><input type="radio" name="question[1]" rel="1" value="B" />B </label>
+		                        		                        		                        <label class="radio inline"><input type="radio" name="question[1]" rel="1" value="C" />C </label>
+		                        		                        		                        <label class="radio inline"><input type="radio" name="question[1]" rel="1" value="D" />D </label>
+		                        		                        		                        	                        	                    </div>
+												<div class="media-body well">
+							<div class="btn-group pull-right hide answerbox">
+			            										<a class="btn ajax" target="questionpanel" href="index.php?exam-app-lesson-ajax-questions&number=2" title="下一题">下一题</a>
+			            	</div>
+			            	<div class="btn-group pull-right">
+			            		<a class="btn questionbtn" href="javascript:;" onclick="javascript:$('.questionbtn').addClass('hide');$('.answerbox').removeClass('hide');" title="查看答案">查看答案</a>
+			            	</div>
+		            	</div>
+						<div class="media-body well answerbox hide">
+							<h5>答案</h5>
+							C						</div>
+						<div id="rightanswer_1" class="hide">C</div>
+						<div class="media-body well answerbox hide">
+							<h5>解析</h5>
+													</div>
+					</div>
+				</div>
+							</form>
+			<script type="text/javascript">
+				$("input:radio").click(function(){
+					var _this = $(this);
+					var qid = _this.attr('rel');
+					if(_this.val() == $("#rightanswer_"+qid).html())
+					{
+						_this.parents('.media-body').addClass('alert-success').addClass('alert').html('恭喜您回答正确！');
+					}
+					else
+					{
+						_this.parents('.media-body').addClass('alert-error').addClass('alert').html('回答错误，正确答案为：'+$("#rightanswer_"+qid).html()+'，您选择的答案是：'+_this.val());
+					}
+					$('.questionbtn').addClass('hide');
+					$('.answerbox').removeClass('hide');
+				});
+			</script>

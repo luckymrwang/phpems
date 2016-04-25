@@ -1,0 +1,101 @@
+			<div class="examform">
+				<ul class="breadcrumb">
+					<li>
+						<span class="icon-home"></span> <a href="index.php?exam">考场选择</a> <span class="divider">/</span>
+					</li>
+					<li class="active">
+						开通考场
+					</li>
+				</ul>
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#" data-toggle="tab">开通考场</a>
+					</li>
+				</ul>
+				<form action="index.php?exam-app-basics-open" method="post">
+					<table class="table">
+						<thead>
+			                <tr>
+						        <th colspan="5">搜索</th>
+			                </tr>
+			            </thead>
+						<tr>
+							<td>
+								是否免费：
+							</td>
+							<td>
+								<select name="search[basicdemo]" class="input-medium">
+									<option value="0">不限</option>
+									<option value="1">免费</option>
+								</select>
+							</td>
+							<td>
+								关键字：
+							</td>
+							<td>
+								<input class="input-medium" name="search[keyword]" type="text" value=""/>
+							</td>
+							<td></td>
+						</tr>
+				        <tr>
+							<td>
+								地区：
+							</td>
+				        	<td>
+				        		<select name="search[basicareaid]" class="input-medium">
+					        		<option value="0">选择地区</option>
+							  									  		<option value="1">全国</option>
+							  									  		<option value="3">河南</option>
+							  									  		<option value="4" selected>北京</option>
+							  									  		<option value="5">陕西</option>
+							  									  		<option value="6">河北</option>
+							  									  		<option value="7">天津</option>
+							  									  		<option value="8">山东</option>
+							  									  		<option value="9">江苏</option>
+							  									  		<option value="10">湖北</option>
+							  									  		<option value="11">辽宁</option>
+							  									  		<option value="12">贵州</option>
+							  									  		<option value="13">北京春雪</option>
+							  									  		<option value="14">云南</option>
+							  									  		<option value="15">四川</option>
+							  									  		<option value="16">安徽</option>
+							  									  		<option value="17">深圳</option>
+							  									  		<option value="18">吉林</option>
+							  									  		<option value="19">广东</option>
+							  									  		<option value="20">新疆</option>
+							  									  		<option value="21">广西</option>
+							  									  		<option value="22">福建</option>
+							  									  		<option value="23">湖南</option>
+							  									  		<option value="24">上海</option>
+							  									  		<option value="25">重庆</option>
+							  									  		<option value="26">江西</option>
+							  									  		<option value="27">浙江</option>
+							  									  		<option value="28">山西</option>
+							  								  		</select>
+				        	</td>
+							<td>
+								科目：
+							</td>
+							<td>
+				        		<select name="search[basicsubjectid]" class="input-medium">
+					        		<option value="0">选择科目</option>
+							  									  		<option value="1" selected>请修改科目名称</option>
+							  								  		</select>
+				        	</td>
+							<td>
+								<button class="btn btn-primary" type="submit">提交</button>
+							</td>
+						</tr>
+					</table>
+					<div class="input">
+						<input type="hidden" value="1" name="search[argsmodel]" />
+					</div>
+				</form>
+				<div class="span12">
+		            <ul class="thumbnails">
+											</ul>
+				</div>
+				<div class="pagination pagination-right">
+					<ul></ul>
+		        </div>
+			</div>

@@ -1,0 +1,2010 @@
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => INSERT INTO x2_session (sessionid,sessionuserid,sessionusername,sessionpassword,sessionip,sessionmanage,sessiongroupid,sessioncurrent,sessionrandcode,sessionlogintime,sessiontimelimit,sessionlasttime,sessionmaster) VALUES (:sessionid,:sessionuserid,:sessionusername,:sessionpassword,:sessionip,:sessionmanage,:sessiongroupid,:sessioncurrent,:sessionrandcode,:sessionlogintime,:sessiontimelimit,:sessionlasttime,:sessionmaster)
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+            [sessionuserid] => 0
+            [sessionusername] => 
+            [sessionpassword] => 
+            [sessionip] => ::1
+            [sessionmanage] => 0
+            [sessiongroupid] => 0
+            [sessioncurrent] => 
+            [sessionrandcode] => 
+            [sessionlogintime] => 0
+            [sessiontimelimit] => 0
+            [sessionlasttime] => 0
+            [sessionmaster] => 0
+        )
+
+    [dim] => 0
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489696
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE 1 ORDER BY groupid DESC
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489696
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catindex > 0  AND catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,10
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,3
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1460884905
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1458897705
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehbasicid FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehbasicid ORDER BY number DESC LIMIT 6
+    [v] => Array
+        (
+            [ehstarttime] => 1459761705
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_basic WHERE 1 ORDER BY basicid DESC LIMIT 0,6
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_basic WHERE 1 LIMIT 512
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489705
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catindex > 0  AND catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,10
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,3
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1460884907
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1458897707
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehbasicid FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehbasicid ORDER BY number DESC LIMIT 6
+    [v] => Array
+        (
+            [ehstarttime] => 1459761707
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_basic WHERE 1 ORDER BY basicid DESC LIMIT 0,6
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_basic WHERE 1 LIMIT 512
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489707
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489709
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE 1 ORDER BY groupid DESC
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489709
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catindex > 0  AND catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,10
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,3
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1460884914
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1458897714
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehbasicid FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehbasicid ORDER BY number DESC LIMIT 6
+    [v] => Array
+        (
+            [ehstarttime] => 1459761714
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_basic WHERE 1 ORDER BY basicid DESC LIMIT 0,6
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_basic WHERE 1 LIMIT 512
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489714
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489715
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => DELETE FROM x2_session WHERE 1 AND sessionlasttime <= :sessionlasttime  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461230515
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE 1 ORDER BY groupid DESC
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489715
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE  groupid = :groupid  ORDER BY groupid DESC
+    [v] => Array
+        (
+            [groupid] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489722
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE  groupid = :groupid  ORDER BY groupid DESC
+    [v] => Array
+        (
+            [groupid] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_app WHERE 1
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489722
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionrandcode = :sessionrandcode WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionrandcode] => E081
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionrandcode = :sessionrandcode WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionrandcode] => TKMV
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catindex > 0  AND catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,10
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,3
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1460884926
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1458897726
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehbasicid FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehbasicid ORDER BY number DESC LIMIT 6
+    [v] => Array
+        (
+            [ehstarttime] => 1459761726
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_basic WHERE 1 ORDER BY basicid DESC LIMIT 0,6
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_basic WHERE 1 LIMIT 512
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489726
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user AS user,x2_user_group AS user_group WHERE  user.userid = :id  AND user.usergroupid = user_group.groupid  LIMIT 512
+    [v] => Array
+        (
+            [id] => 
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catindex > 0  AND catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_category WHERE  catapp = :catapp  ORDER BY catlite DESC,catid DESC
+    [v] => Array
+        (
+            [catapp] => content
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,10
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 1
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  ORDER BY contentsequence DESC,contentinputtime DESC,contentid DESC LIMIT 0,3
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_content WHERE  find_in_set(contentcatid,:catstring)  LIMIT 512
+    [v] => Array
+        (
+            [catstring] => 2
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1460884987
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehusername,max(ehscore) as ehscore FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehuserid ORDER BY number DESC LIMIT 10
+    [v] => Array
+        (
+            [ehstarttime] => 1458897787
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number,ehbasicid FROM x2_examhistory WHERE  ehstarttime >= :ehstarttime  GROUP BY ehbasicid ORDER BY number DESC LIMIT 6
+    [v] => Array
+        (
+            [ehstarttime] => 1459761787
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_basic WHERE 1 ORDER BY basicid DESC LIMIT 0,6
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT count(*) AS number FROM x2_basic WHERE 1 LIMIT 512
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489787
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489788
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_user_group WHERE 1 ORDER BY groupid DESC
+    [v] => 
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SELECT * FROM x2_session WHERE  sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => SHOW FULL COLUMNS FROM  `x2_session`
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+Array
+(
+    [sql] => UPDATE x2_session SET sessionlasttime = :sessionlasttime WHERE 1 AND sessionid = :sessionid  LIMIT 512
+    [v] => Array
+        (
+            [sessionlasttime] => 1461489788
+            [sessionid] => 6kd5gicljtiqmer3n3turos4o0
+        )
+
+)
+Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
